@@ -50,6 +50,17 @@ Run the backend with:
 ./scripts/run-backend.sh
 ```
 
+## GitHub And Railway Helpers
+
+This workspace includes local CLI installs for GitHub and Railway. Use these helpers if your shell does not know `gh`, `railway`, or `node`:
+
+```bash
+./scripts/github-login.sh
+./scripts/github-push.sh
+./scripts/railway-login.sh
+./scripts/railway-deploy.sh
+```
+
 ## Roles
 
 - Admins can create, edit, and delete projects; manage members; create and assign tasks; update any task.
